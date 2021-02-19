@@ -6,11 +6,19 @@
   </div>
 
 
-<ul class="list-group">
+<div class="container">
   <% @cocktails.each do |cocktail| %>
-      <li class="list-group-item"><%= link_to "#{cocktail.name}", cocktail_path(cocktail.id) %></li>
+<!--       <li class="list-group-item"><%= link_to "#{cocktail.name}", cocktail_path(cocktail.id) %></li>
+ -->  <div class="card-product">
+  <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+  <div class="card-product-infos">
+    <h2><%= link_to "#{cocktail.name}", cocktail_path(cocktail.id) %></h2>
+    <p>Product description with <strong>relevant info</strong> only.</p>
+  </div>
+</div>
+
   <% end %>
-</ul>
+</div>
 
 <%= link_to "Add a new cocktail", new_cocktail_path  %>
 
