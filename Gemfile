@@ -52,4 +52,8 @@ gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.12.0'
 gem 'simple_form'
 
+#cloudinary secret key
+gem 'dotenv-rails', groups: [:development, :test]
+
+
 
