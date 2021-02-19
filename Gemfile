@@ -55,5 +55,7 @@ gem 'simple_form'
 #cloudinary secret key
 gem 'dotenv-rails', groups: [:development, :test]
 
+#cloudinary
+gem 'cloudinary', '~> 1.16.0'
 
 
