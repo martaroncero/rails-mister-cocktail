@@ -1,1 +1,46 @@
 // Specific CSS for your home-page
+
+.btn btn-dark a{
+  text-decoration: none;
+  color: white;
+}
+
+
+body{
+
+}
+
+.container{
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+.card-container {
+  background-position: center;
+    background-size: contain;
+    margin-top: 100px;
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 0 150px;
+  padding: 30px 20px;
+  border-radius: 4px;
+}
+
+.card .subtitle {
+  color: #008ff2;
+  margin: 0;
+}
+
+.card p {
+  color: grey;
+  opacity: 0.6;
+  font-weight: bold;
+  line-height: 2;
+  letter-spacing: 1.5;
+  margin: 24px;
+}
