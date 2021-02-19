@@ -1,5 +1,5 @@
 class CocktailsController < ApplicationController
-
+#hello
   def index
     @cocktails = Cocktail.all
   end
